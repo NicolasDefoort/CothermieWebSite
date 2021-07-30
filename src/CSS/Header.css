@@ -33,3 +33,12 @@
 .addressHeader{
     
 }
+.containerZoneIntervention{
+    display: flex;
+    flex-direction: column;
+}
+
+.zoneIntervention{
+    display: flex;
+    flex-direction: row;
+}

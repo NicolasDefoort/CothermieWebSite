@@ -18,17 +18,17 @@ export default function SideMenu() {
             {
                 over?
                 <div className="overChauffage" onMouseEnter={()=>onOver(true)} onMouseLeave={()=>onOver(false)}>
-                  <div className="overChauffageElement">Entretien de chaudière</div>
-                  <div className="overChauffageElement">Remplacement de chaudière</div>  
-                  <div className="overChauffageElement">Détartrage - Désembouage</div>  
-                  <div className="overChauffageElement">Pompes à chaleur</div> 
-                  <div className="overChauffageElement">Astuces</div>    
+                  <Link to="/EntretienDeChaudière"><div className="overChauffageElement">Entretien de chaudière</div></Link>
+                  <Link to="/RemplacementDeChaudière"><div className="overChauffageElement">Remplacement de chaudière</div></Link> 
+                  <Link to="/DétartrageDésembouage"><div className="overChauffageElement">Détartrage - Désembouage</div></Link>
+                  <Link to="/PompeAChaleur"><div className="overChauffageElement">Pompes à chaleur</div> </Link>
+                  <Link to="/Astuces"><div className="overChauffageElement">Astuces</div></Link>
 
                 </div>:false
             }
-            <div className="elementList">Contact</div>
-            <div className="elementList">TVA - Credit d'impôt</div>
-            <div className="elementList">Astuces et conseils</div>
+            <Link to="/EntretienDeChaudière"><div className="elementList">Contact</div></Link>
+            <Link to="/EntretienDeChaudière"><div className="elementList">TVA - Credit d'impôt</div></Link>
+            <Link to="/EntretienDeChaudière"><div className="elementList">Astuces et conseils</div></Link>
         </div>
         
     );
