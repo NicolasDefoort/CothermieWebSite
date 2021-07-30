@@ -1,0 +1,33 @@
+.containerEntretienChaudière{
+    display: flex;
+    flex-direction: column;
+}
+.containerText{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerRightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightPart{
+    border: solid black 1px;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerEntretienRegulier{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerChaudière{
+    display: flex;
+    flex-direction: row;
+}

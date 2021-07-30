@@ -1,0 +1,13 @@
+.containerPompe{
+    display: flex;
+    flex-direction: row;
+}
+.containerPompeChaleur{
+    display: flex;
+    flex-direction: column;
+}
+.containerImgPartenaires{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

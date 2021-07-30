@@ -5,7 +5,18 @@ import Header from './Components/Header'
 import {Route, Switch} from 'react-router-dom';
 import Accueil from './Components/Accueil';
 import Adoucisseurs from './Components/Adoucisseurs';
+import EntretienChaudière from './Components/EntretienChaudière';
+import RemplacementChaudière from './Components/RemplacementChaudière';
+import Détartrage from './Components/Détartrage';
+import PompeChaleur from './Components/PompesChaleur';
+import Astuces from './Components/Astuces';
+import AstucesConseils from './Components/AstucesConseils';
 import Eau from './Components/Eau';
+
+
+
+
+
 
 function App() {
   return (
@@ -21,10 +32,10 @@ function App() {
           <Route exact path='/DétartrageDésembouage'/>
           <Route exact path='/PompeAChaleur'/>
           <Route exact path='/Astuces'/>
-          <Route exact path='/EauChaude' component={Eau}/>
+          <Route exact path='/EauChaude'/>
           <Route exact path='/Contact'/>
           <Route exact path='/TVACréditDImpot'/>
-          <Route exact path='/AstuceConseils'/>
+          <Route exact path='/AstuceConseils' component={AstucesConseils}/>
 
         </Switch>
         {/* 

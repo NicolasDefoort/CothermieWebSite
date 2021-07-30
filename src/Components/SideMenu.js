@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 
 
 
+
+
 export default function SideMenu() {
     const[over,onOver]=useState(false);
 
@@ -26,9 +28,9 @@ export default function SideMenu() {
 
                 </div>:false
             }
-            <Link to="/EntretienDeChaudière"><div className="elementList">Contact</div></Link>
-            <Link to="/EntretienDeChaudière"><div className="elementList">TVA - Credit d'impôt</div></Link>
-            <Link to="/EntretienDeChaudière"><div className="elementList">Astuces et conseils</div></Link>
+            <Link to="/Contact"><div className="elementList">Contact</div></Link>
+            <Link to="/TVACréditDImpot"><div className="elementList">TVA - Credit d'impôt</div></Link>
+            <Link to="/AstuceConseils"><div className="elementList">Astuces et conseils</div></Link>
         </div>
         
     );

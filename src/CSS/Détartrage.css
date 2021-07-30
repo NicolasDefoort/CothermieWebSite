@@ -1,0 +1,18 @@
+.containerIntervention{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImgExemple{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerDétartrage{
+    display: flex;
+    flex-direction: column;
+}
+
+.exempleElement{
+    
+}

@@ -1,0 +1,10 @@
+.containerRemplacementChaudière{
+    display: flex;
+    flex-direction: column;
+}
+.borderBox{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+
