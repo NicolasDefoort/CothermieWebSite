@@ -12,6 +12,7 @@ import PompeChaleur from './Components/PompesChaleur';
 import Astuces from './Components/Astuces';
 import AstucesConseils from './Components/AstucesConseils';
 import Eau from './Components/Eau';
+import TVA from './Components/TvaCrédit'
 
 
 
@@ -34,7 +35,7 @@ function App() {
           <Route exact path='/Astuces' component={Astuces}/>
           <Route exact path='/EauChaude' component={Eau}/>
           <Route exact path='/Contact'/>
-          <Route exact path='/TVACréditDImpot'/>
+          <Route exact path='/TVACréditDImpot' component={TVA}/>
           <Route exact path='/AstuceConseils' component={AstucesConseils}/>
 
         </Switch>
