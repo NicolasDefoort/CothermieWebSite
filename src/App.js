@@ -3,7 +3,8 @@ import './App.css';
 import SideMenu from './Components/SideMenu'
 import Header from './Components/Header'
 import {Route, Switch} from 'react-router-dom';
-import Accueil from './Components/Accueil'
+import Accueil from './Components/Accueil';
+import Adoucisseurs from './Components/Adoucisseurs';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <SideMenu/>
         <Switch>
           <Route exact path='/' component={Accueil} />
-          <Route exact path='/Adoucisseurs'/>
+          <Route exact path='/Adoucisseurs' component={Adoucisseurs}/>
           <Route exact path='/EauChaude'/>
         </Switch>
         {/* 

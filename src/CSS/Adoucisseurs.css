@@ -1,0 +1,11 @@
+.adoucisseursHead{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.adoucisseurs1{
+    justify-content: center;
+    border: solid yellow;
+    
+}
