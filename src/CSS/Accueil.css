@@ -1,0 +1,17 @@
+.containerAccueil{
+    display: flex;
+    flex-direction: column;
+}
+.PrésentationAccueil{
+    display: flex;
+    flex-direction: column;
+
+}
+.containerChauffageSanitaire{
+    display: flex;
+    flex-direction: row;
+}
+.containerChauffageSanitaireElement{
+    display: flex;
+    flex-direction: column;
+}
