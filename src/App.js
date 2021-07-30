@@ -13,10 +13,11 @@ function App() {
         <SideMenu/>
         <Switch>
           <Route exact path='/' component={Accueil} />
+          <Route exact path='/Adoucisseurs'/>
         </Switch>
         {/* 
         import { Link } from 'react-router-dom';
-        
+
         <Link to="/..." ></Link>   
         */}
       

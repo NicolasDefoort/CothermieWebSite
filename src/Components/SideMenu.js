@@ -3,6 +3,8 @@ import '../CSS/SideMenu.css'
 import React from "react";
 import {useState} from "react";
 
+import { Link } from 'react-router-dom';
+
 
 
 export default function SideMenu() {
@@ -10,7 +12,7 @@ export default function SideMenu() {
 
     return (
         <div className='listMenu'>
-            <div className="elementList" id="first">Adoucisseurs</div>
+            <Link to="/Adoucisseurs" > <div className="elementList" id="first">Adoucisseurs</div></Link>
             <div className="elementList">Eau chaude</div>
             <div className="elementList" id="chauffage" onMouseEnter={()=>onOver(true)} onMouseLeave={()=>onOver(false)}>Chauffage</div>
             {
