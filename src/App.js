@@ -27,12 +27,12 @@ function App() {
         <Switch>
           <Route exact path='/' component={Accueil} />
           <Route exact path='/Adoucisseurs' component={Adoucisseurs}/>
-          <Route exact path='/EntretienDeChaudière'/>
-          <Route exact path='/RemplacementDeChaudière'/>
-          <Route exact path='/DétartrageDésembouage'/>
-          <Route exact path='/PompeAChaleur'/>
-          <Route exact path='/Astuces'/>
-          <Route exact path='/EauChaude'/>
+          <Route exact path='/EntretienDeChaudière' component={EntretienChaudière}/>
+          <Route exact path='/RemplacementDeChaudière' component={RemplacementChaudière}/>
+          <Route exact path='/DétartrageDésembouage' component={Détartrage}/>
+          <Route exact path='/PompeAChaleur' component={PompeChaleur}/>
+          <Route exact path='/Astuces' component={Astuces}/>
+          <Route exact path='/EauChaude' component={Eau}/>
           <Route exact path='/Contact'/>
           <Route exact path='/TVACréditDImpot'/>
           <Route exact path='/AstuceConseils' component={AstucesConseils}/>
