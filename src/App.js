@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import {Route, Switch} from 'react-router-dom';
 import Accueil from './Components/Accueil';
 import Adoucisseurs from './Components/Adoucisseurs';
+import Eau from './Components/Eau';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route exact path='/DétartrageDésembouage'/>
           <Route exact path='/PompeAChaleur'/>
           <Route exact path='/Astuces'/>
-          <Route exact path='/EauChaude'/>
+          <Route exact path='/EauChaude' component={Eau}/>
           <Route exact path='/Contact'/>
           <Route exact path='/TVACréditDImpot'/>
           <Route exact path='/AstuceConseils'/>

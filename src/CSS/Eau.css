@@ -1,0 +1,91 @@
+.eauHead{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+.text3{
+    display: flex;
+    flex-direction: row;
+    line-height: 100%;
+}
+
+.subText3{
+    display: flex;
+    flex-direction: column;
+}
+
+.eau1{
+    height: 70%;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.text4{
+    display: flex;
+    flex-direction: row;
+    line-height: 120%;
+}
+
+.subText4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+}
+
+.eau2{
+    height: 70%;
+    width: 200%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.eau2bis{
+    height: 30%;
+    width: 100%;
+    margin-top: 150%;
+    margin-left: -20%;
+}
+
+.subText4bis{
+    display: flex;
+    flex-direction: row;
+}
+
+.text5{
+    display: flex;
+    flex-direction: row;
+    line-height: 100%;
+}
+
+.subText5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+}
+
+.eau3{
+    height: 70%;
+    width: 200%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.eau3bis{
+    height: 30%;
+    width: 100%;
+    margin-top: 100%;
+    margin-left: -20%;
+}
+
+.subText5bis{
+    display: flex;
+    flex-direction: row;
+}
