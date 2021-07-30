@@ -13,7 +13,7 @@ export default function SideMenu() {
     return (
         <div className='listMenu'>
             <Link to="/Adoucisseurs" > <div className="elementList" id="first">Adoucisseurs</div></Link>
-            <div className="elementList">Eau chaude</div>
+            <Link to="/EauChaude" ><div className="elementList">Eau chaude</div></Link>
             <div className="elementList" id="chauffage" onMouseEnter={()=>onOver(true)} onMouseLeave={()=>onOver(false)}>Chauffage</div>
             {
                 over?

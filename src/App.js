@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Accueil} />
           <Route exact path='/Adoucisseurs'/>
+          <Route exact path='/EauChaude'/>
         </Switch>
         {/* 
         import { Link } from 'react-router-dom';

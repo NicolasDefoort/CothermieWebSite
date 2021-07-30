@@ -3,6 +3,7 @@ import logoCothermie from '../Image/LogoCothermie.jpg'
 import logoRGE from '../Image/RGE.jpg'
 import logoQualigaz from '../Image/Qualigaz.jpg'
 import logoAutre from '../Image/Autre.jpg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,7 +16,7 @@ export default function Header() {
                 <img src={logoQualigaz} alt="Cothermie"/>
                 <img src={logoAutre} alt="Cothermie"/>
             </div>
-            <div className="containerLogoCothermie"><img className="logoCothermie" src={logoCothermie} alt="Cothermie"/></div>
+            <div className="containerLogoCothermie"><Link to="/" ><img className="logoCothermie" src={logoCothermie} alt="Cothermie"/></Link></div>
             <p className="contactHeader">
                 <p className="addressHeader">
                     <div>1400 Rue de Beaumetz</div>
