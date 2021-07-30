@@ -1,0 +1,39 @@
+.listMenu{
+    
+    width: 20%;
+    height: 50em;
+    background-color: rgb(231, 231, 231);
+    margin-top: 3%;
+    border-radius: 10px;
+    
+}
+
+.overChauffage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    font-size: 120%;
+    
+}
+.overChauffageElement:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.elementList{
+    
+    border-top: none;
+    padding: 3%;
+    font-size: 150%;
+
+}
+
+.elementList:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+
+

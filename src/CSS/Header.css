@@ -1,0 +1,35 @@
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+    
+}
+.logoCothermie{
+    width: 100%;
+    height: 65%;
+}
+.logoAutre{
+    width:15%;
+    height: 5%;
+    margin-left: 4%;
+}
+.containerLogoCothermie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.contactHeader{
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4%;
+}
+
+.addressHeader{
+    
+}
